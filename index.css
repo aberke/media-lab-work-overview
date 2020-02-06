@@ -1,0 +1,77 @@
+/*
+CSS
+*/
+
+/*  Mass Reset */
+*{ 
+	margin: 0; padding: 0; border: 0; 
+	font-family: "arial";
+	font-weight: 300;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+}
+a:hover {
+	cursor: pointer;
+	color: gray;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	color: black;
+}
+body {
+	height: 100%;
+}
+
+h1, h2, h4 {
+	text-transform: uppercase;
+}
+h1 {
+	padding: 8px 0;
+	font-size: 1.3em;
+}
+h4, h4 a {
+	font-weight: 600;
+	text-decoration: none;
+}
+img {
+	display: block;
+}
+p {
+	padding: 2px 0;
+}
+
+#content {
+	max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 25px;
+    display: block;
+
+}
+#subtitle {
+	font-style: italic;
+}
+
+section {
+	width: 100%;
+	margin-top: 50px;
+}
+section.other-work {
+	border-top: 1px solid gray;
+	padding-top: 50px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+ul li {
+	padding: 8px;
+}
